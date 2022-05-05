@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #343434;
+}
+
+ .site-main {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+.business-card {
+    width: 350px;
+    border-radius: 20px;
+    background-color: #28282b;
+    color: #ffffff;
+    text-align: center;
+    margin: 8px auto;
+    box-shadow: 1px 1px 4px #28282b;
+}
+
+.business-card-header--description,
+.business-card-header--buttons,
+.business-card-content {
+    padding: 0px 16px;
+}
+
+.business-card-header--description {
+    margin-top: 16px;
+}
+
+
+.business-card-header--header-image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.business-card-header--description h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.business-card-header--description h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.business-card-content {
+    margin-top: 8px;
+}
+
+.business-card-content h3 {
+    font-size: 0.9em;
+}
+
+.business-card-content p {
+    font-size: 0.8em;
+}
+
+.icon {
+    margin: 0px;
+}
+
+.business-card-header--buttons a {
+    margin: 8px;
+    width: 130px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.business-card-header--buttons a:hover {
+    text-decoration: none;
+}
+
+.business-card-header--buttons--email {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.business-card-header--buttons--linkedin {
+    background-color: #0e76a8;
+    color: #ffffff;
+}
+
+.business-card-header--buttons--email:hover {
+    background-color: #dedede;
+    color: #000000;
+}
+
+.business-card-header--buttons--linkedin:hover {
+    background-color: #06648d;
+    color: #ffffff;
+}
+
+
+.business-card-content h3 {
+    font-size: 0.8;
+    text-align: left;
+    font-weight: bold;
+}
+
+.business-card-footer {
+    padding: 16px;
+    background-color: #000000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icon {
+    margin: 4px;
+}
+
+.business-card-footer--icon-link {
+    margin: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.business-card-footer--icon-link:hover {
+    margin: 8px;
+    text-decoration: none;
+    color: #dedede;
+}

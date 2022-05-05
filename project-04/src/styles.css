@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeeeee;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.character-card {
+    margin: 8px;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.character-card--image {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.character-card--info {
+    padding: 0px 8px;
+}

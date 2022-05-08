@@ -1,4 +1,4 @@
-# Scrimba React Fundamentals
+# Scrimba's React Course
 
 Collection of mini projects I made as I first study React from Scrimba.
 
